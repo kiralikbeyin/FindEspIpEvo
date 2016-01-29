@@ -5,8 +5,8 @@
 #include <ESP8266WebServer.h>
 
 int status = WL_IDLE_STATUS;
-char ssid[] = "TTNET_ZyXEL_X4PT"; //  your network SSID (name)
-char pass[] = "cE76dEa12986e";    // your network password (use for WPA, or use as key for WEP)
+char ssid[] = "ssid"; //  your network SSID (name)
+char pass[] = "pass";    // your network password (use for WPA, or use as key for WEP)
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 
 unsigned int localPort = 4088;      // local port to listen on
